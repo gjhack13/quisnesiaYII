@@ -1,0 +1,97 @@
+/*  Fonts  */
+@font-face {
+    font-family: 'raleway-regular';
+    src: url('../fonts/raleway-regular.eot');
+    src: url('../fonts/raleway-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-regular.woff') format('woff'),
+         url('../fonts/raleway-regular.ttf') format('truetype'),
+         url('../fonts/raleway-regular.svg#ralewayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'raleway-bold';
+    src: url('../fonts/raleway-bold.eot');
+    src: url('../fonts/raleway-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-bold.woff') format('woff'),
+         url('../fonts/raleway-bold.ttf') format('truetype'),
+         url('../fonts/raleway-bold.svg#ralewaybold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'raleway-semibold';
+    src: url('../fonts/raleway-semibold.eot');
+    src: url('../fonts/raleway-semibold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-semibold.woff') format('woff'),
+         url('../fonts/raleway-semibold.ttf') format('truetype'),
+         url('../fonts/raleway-semibold.svg#ralewaysemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+*{
+margin:0;
+padding:0;
+}
+
+#wrapper{
+width:100%;
+height:240px;
+
+}
+
+body{
+background-color:lightblue;
+background:url(bac3.png);
+
+}
+
+
+
+#isi{
+font-family: "raleway-bold", arial;
+
+
+}
+
+#isi p{
+text-align:center;
+font-size:15px;
+font-weight:bold;
+margin-top: 100px;
+margin-bottom:120px;
+
+}
+
+#isi h3{
+    text-align: center;
+    margin-top: 25px;
+	text-decoration:underline;
+}
+
+#isi img{
+width:120px;
+height:150px;
+margin-top:10px;
+margin-left:30px;}
+
+#isi table{
+margin-top:60px;
+font-size:20px;
+color:brown;
+}
+
+span{
+font-size:30px;}
+
